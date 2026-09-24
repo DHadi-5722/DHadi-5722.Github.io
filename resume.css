@@ -37,12 +37,33 @@ h2 {
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem; }
 
-.list-social-icons a {
-  color: #495057; }
-  .list-social-icons a:hover {
-    color: #BD5D38; }
-  .list-social-icons a .fa-lg {
-    font-size: 1.75rem; }
+.list-social-icons a.social-link {
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-flex;
+  height: 3rem;
+  justify-content: center;
+  text-decoration: none;
+  width: 3rem; }
+  .list-social-icons a.social-link:hover {
+    color: #fff;
+    filter: brightness(0.9); }
+  .list-social-icons a.social-link svg {
+    fill: currentColor;
+    height: 1.5rem;
+    width: 1.5rem; }
+
+.list-social-icons a.social-linkedin {
+  background-color: #0a66c2; }
+
+.list-social-icons a.social-github {
+  background-color: #24292f; }
+
+.standard-list {
+  padding-left: 1.25rem; }
+  .standard-list li {
+    margin-bottom: 0.35rem; }
 
 .list-icons {
   font-size: 3rem; }
